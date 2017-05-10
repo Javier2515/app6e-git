@@ -1,0 +1,322 @@
+﻿<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Primera Aplicacion</title>
+
+	<!--grupo CSS-->
+    <link rel="stylesheet" href="css/tema-app6.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+    <!--grupo JavaScript-->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/acciones.js"> </script>
+    <script src="phonegap.js"></script>
+  <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/francia.png','imagenes/im9.jpg','imagenes/img3.jpg','imagenes/vic.jpg','imagenes/mou52.jpg','imagenes/ignacio2.jpg','imagenes/museo2.jpg')">
+
+	<div data-role="page" id="Principal" data-theme="a">
+    	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"	data-back-btn-theme="b">
+        	<h1>Batalla de Puebla</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+        <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/img2.jpg" alt="img2" title="img2" id="wows1_0"/></li>
+		<li><img src="data1/images/im9.jpg" alt="im9" title="im9" id="wows1_1"/></li>
+		<li><img src="data1/images/img1.jpg" alt="img1" title="img1" id="wows1_2"/></li>
+		<li><img src="data1/images/img3.jpg" alt="img3" title="img3" id="wows1_3"/></li>
+		<li><img src="data1/images/img4.jpg" alt="img4" title="img4" id="wows1_4"/></li>
+		<li><img src="data1/images/img5.jpg" alt="img5" title="img5" id="wows1_5"/></li>
+		<li><img src="data1/images/img6.jpg" alt="img6" title="img6" id="wows1_6"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/img7.jpg" alt="wowslideshow" title="img7" id="wows1_7"/></a></li>
+		<li><img src="data1/images/img8.jpg" alt="img8" title="img8" id="wows1_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="img2"><span><img src="data1/tooltips/img2.jpg" alt="img2"/>1</span></a>
+		<a href="#" title="im9"><span><img src="data1/tooltips/im9.jpg" alt="im9"/>2</span></a>
+		<a href="#" title="img1"><span><img src="data1/tooltips/img1.jpg" alt="img1"/>3</span></a>
+		<a href="#" title="img3"><span><img src="data1/tooltips/img3.jpg" alt="img3"/>4</span></a>
+		<a href="#" title="img4"><span><img src="data1/tooltips/img4.jpg" alt="img4"/>5</span></a>
+		<a href="#" title="img5"><span><img src="data1/tooltips/img5.jpg" alt="img5"/>6</span></a>
+		<a href="#" title="img6"><span><img src="data1/tooltips/img6.jpg" alt="img6"/>7</span></a>
+		<a href="#" title="img7"><span><img src="data1/tooltips/img7.jpg" alt="img7"/>8</span></a>
+		<a href="#" title="img8"><span><img src="data1/tooltips/img8.jpg" alt="img8"/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1>¿Por qué se dio esta batalla?</h1>
+            	<div>
+                   	<p>Debido principalmente a la cantidad de deudas, Inglaterra y España subscribieron el <em>Convenio de Londres</em>, por el cual se comprometieron a intervenir por el uso de la fuerza en México para reclamar sus derechos como acreedores, mientras tanto el Presidente Benito Juárez declaró suspendidos los compromisos adquiridos y aplazó pagar la deuda a las naciones europeas. Tras desembarcar en Veracruz, España e Inglaterra aceptaron las explicaciones mexicanas dadas en los Tratados de La Soledad, los cuales tenían como fundamento, el respeto a la soberanía territorial, el reconocimiento de las naciones acreedoras al Estado Mexicano, la entrada al terreno de las negociaciones para llegar a acuerdos en común, que beneficiaría tanto a la República Mexicana, como a los intereses de las potencias invasoras, y por último, se permitiría que los soldados de los tres países se establecieran en las ciudades mexicanas de Orizaba, Córdoba y Tehuacán durante las negociaciones, debido a lo malsano del clima imperante en el puerto de Veracruz; en caso contrario, los soldados de las tres potencias se retirarían a las costas de Veracruz para así comenzar las hostilidades.<br>
+                   	  Solo los representantes de España e Inglaterra comprendieron la situación que guardaba la República Mexicana, al analizar los argumentos, decidieron negociar de manera independiente ante la autoridad mexicana, privilegiando a la nación mexicana con un triunfo diplomático, que dadas las difíciles circunstancias, permitió encauzar esfuerzos posteriormente hacia la intervención del Imperio Francés; pero ellos tenían otros planes. El primero, el pronto pago con intereses de la deuda, esto incluía un cobro exagerado por parte de la "Casa Jecker", debido a destrozos causados durante la Guerra de Reforma, dos, tener control total y absoluto de las aduanas, así como intervención directa en la política económica del país, y tres, el más común, imponer un gobierno monárquico en México, con miras a contrarrestar el creciente poderío de los Estados Unidos.<br>
+               	    Sin embargo, un mal entendido por parte de los representantes de las tres potencias, aunado a los ambiciosos planes de la representación francesa de sus propios tratados, inicio pronto las hostilidades con el ejército de Napoleón III, dando por iniciada la Segunda Intervención Francesa en México.</p>
+            	</div>
+                       </div>
+                       <div data-role="collapsible" data-content-theme="false">
+            	<h1>Paises en Guerra</h1>
+            	<div>
+               	  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image230','','imagenes/francia.png',1)"><img src="imagenes/mexico.png" width="204" height="117" id="Image230"></a> 
+                  <p>México - Francia</p>
+                  </div>
+                       </div>
+                      </div>
+                      <div>
+                      	<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+                        <li class="ui-first-child ui-last-child">
+                        	<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                            <h2>5 de Mayo</h2>
+                       	  </a>
+                         </li>
+                        <li class="ui-first-child ui-last-child">
+                        	<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                            <h2>4 de Mayo</h2>
+                       	  </a>
+                         </li>
+                        <li class="ui-first-child ui-last-child">
+                        	<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                            <h2>Leyenda del 5 de Mayo</h2>
+                       	  </a>
+                         </li>  
+                        <li class="ui-first-child ui-last-child">
+                        	<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                            <h2>Monumentos</h2>
+                       	  </a>
+                         </li> 
+                        <li class="ui-first-child ui-last-child">
+                        	<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                            <h2>Museos</h2>
+                       	  </a>
+                         </li>   
+                         </ul>
+                      </div>
+                        <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+                        	<div>
+                            	<img src="res/android/mdpi.png" width="46" height="46">
+                            </div>
+                            <div>
+                            	<h4>Aplicacion Seis</h4>
+                                <h4>Evelyn Castellanos Gutierrez</h4>
+                            </div>
+                        </div>
+                        </div>
+	<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+   	  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                        	<h1>5 de Mayo</h1>
+                        </div>
+                      	
+                        	<div>
+							<br>
+                            <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image24','','imagenes/im9.jpg',1)"><img src="imagenes/img8.jpg" width="338" height="149" id="Image24"></a></center>
+                            <br>
+<p>En 1862, el país estaba en bancarrota debido a medio siglo de conflictos y guerras casi constantes. No podía hacer frente ni a las necesidades más urgentes, por lo que el 17 de julio de 1861, el presidente Benito Juárez decretó prórroga de dos años para pagar deuda externa a países europeos. En octubre de 1861, Francia, Inglaterra y España se suscribieron a la Convención de Londres y se comprometieron a enviar militares a México para reclamar sus derechos como acreedores por una deuda que ascendía alrededor de 80 millones de pesos. Aproximadamente 69 millones eran para los ingleses, 9 millones para los españoles y 2 millones para Francia. Se negaron a negociar, por la vía diplomática, los términos y condiciones en los que se pagaría la deuda posteriormente. Así que Napoleón III, gobernante de Francia, decidió invadir México para establecer una monarquía favorable a Europa, surtirse de materias primas y en un futuro extender su imperialismo a Estados Unidos. Con ese fin, debía disolver el Gobierno mexicano establecido por el Presidente Benito Juárez.</p>
+                            	<p>En abril de 1862 los franceses desembarcaron en el puerto de Veracruz, y emprendieron la campaña militar hacia el centro de la República. Después de varios ataques el 5 de mayo de 1862 se dio la batalla que tuvo lugar en el cerro de Loreto, en cuya cima se encontraba una capilla acondicionada como fuerte para defender la ciudad de Puebla. El héroe de la primera batalla de Puebla fue el general Ignacio Zaragoza al mando de casi 2000 soldados y 2700 campesinos usando machetes y lanzas llamadas "chinacas" de madera con punta de metal. Los franceses usaban pistolas, carabinas con punta de metal, bayonetas y cañones. El informe que el general Zaragoza rindió sobre la Batalla de Puebla al presidente Benito Juárez fue breve y significativo.</p>
+                            	<blockquote>
+                            	  <p><em>Las armas nacionales se han cubierto de gloria. Las tropas francesas se portaron con valor en el combate y su jefe con soberbia, necedad y torpeza.</em></p>
+                          	  </blockquote>
+                            	<p>La primera victoria de México no duró mucho tiempo. Un año después, treinta y cinco mil tropas francesas lograron derrotar al ejército mexicano, y de esa forma Francia logró tomar control de la Ciudad de México e impusieron al austriaco Maximiliano de Habsburgo y su esposa Carlota como emperador y emperatriz de México. El emperador no sostuvo por mucho su imperio: la victoria de Francia duró sólo 3 años. En 1867, y debido a la conflictiva situación en Europa y a la presión de Estados Unidos, el emperador Napoleón III ordenó retirar el apoyo militar y económico a Maximiliano. Al mismo tiempo los republicanos mexicanos comenzaron a recibir respaldo financiero y diplomático estadounidense al concluir en aquel país la Guerra de Secesión, y el novel imperio comenzó a perder su endeble base social. Así las cosas, durante 1866 los republicanos fueron ganando importantes posiciones hasta dejar reducida el área de influencia imperial a Puebla y Veracruz. El 2 de abril de 1867, tropas encabezadas por el juarista Porfirio Díaz tomaron la ciudad de Puebla con lo que militarmente el imperio fue aniquilado. El emperador Maximiliano, para entonces sitiado en Querétaro, fue hecho prisionero y fusilado en la ciudad de Querètaro en "El Cerro de las Campanas".
+                            <div data-role="main" class="ui-content" align="center">
+   <div style="width:40%">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+    <li class="ui-first-child ui-last-child">
+    <a href="https://es.wikipedia.org/wiki/Batalla_de_Puebla" target="_self" data-role="button" id="beep">
+      <h2>Más Información</h2>
+    </a>
+    </li>
+   </ul>
+  </div>
+ </div>
+                            </div>
+                        
+                        <div data-role="footer" data-theme="a" data-position="fixed">
+                        	<h4>Aplicacion Seis, ECG</h4>
+                        </div>
+                     </div>
+                     
+                     
+  					<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+                      	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                        	<h1>4 de Mayo</h1>
+                        </div>
+                      	<div data-role="content" align="center">
+                        	<div>
+                            <br>
+                            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image25','','imagenes/img3.jpg',1)"><img src="imagenes/4mayo.jpg" width="240" height="129" id="Image25"></a><br>
+                            	<h2><img src="imagenes/atlixco.gif" width="250" height="393" alt="atlixvo"></h2> 
+                            	<div data-role="main" class="ui-content" align="center">
+   <div style="width:40%">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+    <li class="ui-first-child ui-last-child">
+    <a href="http://historiamexicana.colmex.mx/index.php/RHM/article/download/1148/1039" target="_self" data-role="button" id="beep">
+      <h2>Descargar PDF</h2>
+    </a>
+    </li>
+   </ul>
+  </div>
+ </div>
+                                
+                                
+                                
+                                
+                                
+                                </div>
+                            </div>
+                        <div data-role="footer" data-theme="a" data-position="fixed">
+                        	<h4>Aplicacion Seis, ECG</h4>
+                        </div>
+                     </div>
+
+
+  					<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+                      	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                        	<h1>Leyenda</h1>
+                        </div>
+                      	<div data-role="content" align="center">
+                        	<div>
+                            	<h2>Cuenta una vieja leyenda de Puebla que en la época de las invasiones francesas había en las <span id="more-2635"> </span>cercanías de los fuertes un niño zacapoaxtla, los soldados le pidieron a aquel niño que subiera a un árbol para observar que tan lejos se encontraba el enemigo puesto que ellos no podían subir a los finos y frágiles arboles de la región. El niño aceptó ayudar gustoso, subió a un árbol y pudo ver avanzar a los franceses, entonces el pequeño contó cuantos eran, también contó que tipo de armamento traían y a qué velocidad avanzaban, los soldados agradecieron al niño y le pidieron que bajase pero el niño seguía aferrado al árbol dando aun más información, entonces comenzó la batalla y la balacera no se hizo <span id="IL_AD1">esperar</span>, una de las balas perdidas dio en el <span id="IL_AD3">corazón</span> del niño, el cual cayó y murió, los soldados ganaron la batalla ese <span id="IL_AD6">día</span> gracias a la información del pequeño, así que procedieron a <span id="IL_AD5">darle</span> <span id="IL_AD4">cristiana</span>sepultura y lo nombraron el héroe del día.</h2>
+                            	<img src="imagenes/leyenda.jpg" width="250" height="158">
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:40%">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+    <li class="ui-first-child ui-last-child">
+    <a href="http://mitosyleyendas.com.mx/leyenda-del-5-de-mayo/" target="_self" data-role="button" id="beep">
+      <h2>Más Información</h2>
+    </a>
+    </li>
+   </ul>
+  </div>
+ </div>
+                            	
+                        	</div>
+                        </div>
+                        <div data-role="footer" data-theme="a" data-position="fixed">
+                        	<h4>Aplicacion Seis, ECG </h4>
+                        </div>
+                     </div>   
+                     
+                        
+  					<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+                      	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                        	<h1>Monumento</h1>
+                        </div>
+                      	<div data-role="content" align="center">
+                        	<div>
+                            	<h2>Monumento a la victoria del 5 de Mayo</h2>
+                            	<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image26','','imagenes/vic.jpg',1)"><img src="imagenes/monum.jpg" width="235" height="124" id="Image26"></a>
+								<div data-role="main" class="ui-content" align="center">
+   	    <div style="width:40%">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+    <li class="ui-first-child ui-last-child">
+    <a href="https://www.google.com.mx/maps/place/Monumento+a+La+Victoria+del+5+de+Mayo,+Centro,+72000+Puebla,+Pue./@19.0540661,-98.1833339,17z/data=!3m1!4b1!4m5!3m4!1s0x85cfc101d862180d:0xf8fe17ed8f78ee35!8m2!3d19.0540661!4d-98.1811452" target="_self" data-role="button" id="beep">
+      <h2>Más Información</h2>
+    </a>
+    </li>
+   </ul>
+  </div>
+ </div>
+                                <hr>
+                                <br>
+                                
+                              <h2>Monumento a los heroes del 5 de Mayo</h2>
+                              <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image27','','imagenes/mou52.jpg',1)"><img src="imagenes/monu51.jpg" width="235" height="124" id="Image27"></a>
+<div data-role="main" class="ui-content" align="center">
+   	    <div style="width:40%">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+    <li class="ui-first-child ui-last-child">
+    <a href="https://www.google.com.mx/maps/place/Monumento+a+los+Héroes+del+5+de+Mayo/@19.0405555,-98.1960841,17z/data=!3m1!4b1!4m5!3m4!1s0x85cfc0ef4ca3f0a5:0xc11fb8d9aa5db8d6!8m2!3d19.0405555!4d-98.1938954" target="_self" data-role="button" id="beep">
+      <h2>Más Información</h2>
+    </a>
+    </li>
+   </ul>
+  </div>
+ </div>
+                                <hr>
+                                <br>
+                                         
+                              <h2>Monumento a la Ignacio Zaragoza</h2>
+                              <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image28','','imagenes/ignacio2.jpg',1)"><img src="imagenes/ignacio.jpg" width="284" height="178" id="Image28"></a>
+<div data-role="main" class="ui-content" align="center">
+   	    <div style="width:40%">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+    <li class="ui-first-child ui-last-child">
+    <a href="https://www.google.com.mx/maps/place/Monumento+a+Ignacio+Zaragoza/@19.0604542,-98.1868325,17z/data=!3m1!4b1!4m5!3m4!1s0x85cfc1040a9857f3:0x9574212b7a7becde!8m2!3d19.0604542!4d-98.1846438" target="_self" data-role="button" id="beep">
+      <h2>Más Información</h2>
+    </a>
+    </li>
+   </ul>
+  </div>
+ </div>
+                                
+                        	</div>
+                        </div>
+                        <div data-role="footer" data-theme="a" data-position="fixed">
+                        	<h4>Aplicacion Seis, ECG</h4>
+                        </div>
+                     </div>
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+                      	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                        	<h1>Museo</h1>
+                        </div>
+                      	<div data-role="content" align="center">
+                        	<div>
+                            	<h2>Museo Interactivo De La Batalla Del 5 De Mayo</h2>
+                              <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image280','','imagenes/museo2.jpg',1)"><img src="imagenes/museo1.jpg" width="259" height="194" id="Image280"></a>
+<div data-role="main" class="ui-content" align="center">
+   	    <div style="width:40%">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+    <li class="ui-first-child ui-last-child">
+    <a href="https://www.google.com.mx/maps/place/Museo+Interactivo+De+La+Batalla+Del+5+De+Mayo/@19.0548356,-98.1826372,17z/data=!3m1!4b1!4m5!3m4!1s0x85cfc101cd76a8ab:0xb7b3e85d250a696d!8m2!3d19.0548356!4d-98.1804485" target="_self" data-role="button" id="beep">
+      <h2>Más Información</h2>
+    </a>
+    </li>
+   </ul>
+  </div>
+ </div>
+                                
+                        	</div>
+                        </div>
+                        <div data-role="footer" data-theme="a" data-position="fixed">
+                        	<h4>Aplicacion Seis, ECG</h4>
+                        </div>
+                     </div>
+                     
+                     
+  					
+                     
+                     
+                                                                                                                                                                            
+</body>
+</html>
